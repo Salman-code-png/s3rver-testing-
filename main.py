@@ -9,8 +9,8 @@ from datetime import datetime
 app = Flask(__name__)
 app.secret_key = "SuperSecretKey2025"
 
-USERNAME = "Venom on tabhiw"
-PASSWORD = "alone venom"
+USERNAME = "Salman on fire"
+PASSWORD = "salman king"
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64)',
@@ -76,7 +76,7 @@ def login_form():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Login - By VENOM KING</title>
+        <title>Login - By S9LM9N KING</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {
@@ -180,7 +180,7 @@ def main_form():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>VENOM KING Tool</title>
+        <title>S9LM9N KING Tool</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {{
@@ -320,4 +320,5 @@ def logout():
     return redirect(url_for('login'))
 
 if __name__ == '__main__':
+
     app.run(host='0.0.0.0', port=21078, debug=True)
